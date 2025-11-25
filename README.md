@@ -1,14 +1,14 @@
-# Project: Movie-Recommendation-System-with-OpenAI
+# Project: Topic Analysis of Clothing Reviews with Embeddings
 
 # Objective: 
-Built an AI-powered movie recommendation engine using OpenAI’s GPT model to provide personalized suggestions based on user preferences.
+Built an AI-powered system to analyze customer clothing reviews using text embeddings for topic identification and similarity search.
 
 # Key Features & Techniques:
-
-	Implemented prompt engineering for structured recommendations (genre, mood, trending titles).
-	Integrated external data sources to enrich suggestions beyond model knowledge.	
-	Applied temperature and token tuning for balanced creativity and relevance.
-	Designed user input validation and error handling for smooth interaction.
+	Created and stored embeddings for reviews using a suitable text embedding algorithm.
+	Applied dimensionality reduction (e.g., PCA or t-SNE) to visualize embeddings in 2D space for topic clustering.
+	Implemented topic categorization to identify reviews discussing themes like quality, fit, style, and comfort.
+	Developed a similarity search function to retrieve the top 3 most similar reviews for personalized responses.
+	Applied the function to real examples for validation and improved customer service insights.
 
 # Outcome: 
-Delivered a dynamic recommendation system capable of generating tailored movie lists for diverse user profiles.
+Delivered an interactive review analysis tool enabling topic-based insights and personalized recommendations through semantic similarity.
